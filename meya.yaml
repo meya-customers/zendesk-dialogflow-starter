@@ -1,0 +1,4 @@
+app_name: Hello World
+debug: true
+meya_platform:
+  url: https://gcp-us-east4-grid.meya.ai

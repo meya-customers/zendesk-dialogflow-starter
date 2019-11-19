@@ -1,0 +1,3 @@
+steps:
+  - type: component.welcome
+    language: en
