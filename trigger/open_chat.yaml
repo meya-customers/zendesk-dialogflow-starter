@@ -1,3 +1,0 @@
-type: meya.trigger.open_chat
-action:
-  flow: flow.welcome
