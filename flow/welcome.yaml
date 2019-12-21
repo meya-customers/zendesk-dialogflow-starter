@@ -1,3 +1,6 @@
+triggers:
+  - type: meya.trigger.open_chat
+
 steps:
   - type: component.welcome
     language: en
