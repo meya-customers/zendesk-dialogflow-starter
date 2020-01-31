@@ -1,5 +1,5 @@
 from dataclasses import dataclass
-from grid.app_config import BaseAppConfig
+from meya.app_config import BaseAppConfig
 
 
 @dataclass

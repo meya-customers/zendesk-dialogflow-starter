@@ -1,5 +1,5 @@
 from dataclasses import dataclass
-from grid.app_secrets import BaseAppSecrets
+from meya.app_secrets import BaseAppSecrets
 
 
 @dataclass

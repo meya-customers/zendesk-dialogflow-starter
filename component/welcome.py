@@ -1,5 +1,5 @@
 from dataclasses import dataclass
-from grid.element.field import element_field
+from meya.element.field import element_field
 from meya.element.engine.component import ComponentElement
 from meya.entry import Entry
 from meya.entry.event import MeyaSayEvent
