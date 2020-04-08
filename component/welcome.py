@@ -1,9 +1,8 @@
 from dataclasses import dataclass
-from meya.element.field import element_field
 from meya.element.engine.component import ComponentElement
+from meya.element.field import element_field
 from meya.entry import Entry
 from meya.entry.event import MeyaSayEvent
-from meya.util.generate_id import generate_member_id
 from typing import List
 
 
