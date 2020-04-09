@@ -1,13 +1,14 @@
 from dataclasses import dataclass
-from meya.element.engine.component import ComponentElement
+from meya.component.element import Component
 from meya.element.field import element_field
 from meya.entry import Entry
-from meya.entry.event import MeyaSayEvent
+from meya.orb.composer_spec import ComposerSpec
+from meya.text.event.say import SayEvent
 from typing import List
 
 
 @dataclass
-class WelcomeComponentElement(ComponentElement):
+class WelcomeComponentElement(Component):
     language: str = element_field()
 
     async def start(self) -> List[Entry]:
@@ -17,10 +18,10 @@ class WelcomeComponentElement(ComponentElement):
             text = "Bienvenue! Commençons!"
         else:
             text = "🤔"
-        text_event = MeyaSayEvent(
-            composer=None,
+        text_event = SayEvent(
+            composer=ComposerSpec(),
             member_id=self.member_id,
-            quick_replies=None,
+            quick_replies=[],
             text=text,
             thread_id=self.entry.thread_id,
         )

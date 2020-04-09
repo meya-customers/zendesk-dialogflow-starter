@@ -1,5 +1,5 @@
 triggers:
-  - type: meya.trigger.open_page
+  - type: page_open
     when: (@ not thread.open_page )
 
 steps:

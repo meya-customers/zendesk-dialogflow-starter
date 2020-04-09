@@ -1,5 +1,5 @@
 triggers:
-  - type: meya.trigger.open_chat
+  - chat_open
 
 steps:
   - type: component.welcome
