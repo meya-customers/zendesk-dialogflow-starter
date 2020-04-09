@@ -1,5 +1,5 @@
 triggers:
-  - chat_open
+  - keyword: welcome
 
 steps:
   - type: component.welcome
