@@ -3,6 +3,6 @@
 .meya
 .pytest_cache
 __pycache__
-meya.local.yaml
 node_modules
 venv
+vault.secret*.yaml
