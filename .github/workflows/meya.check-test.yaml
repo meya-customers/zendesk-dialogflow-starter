@@ -6,9 +6,6 @@ on:
   push:
     branches:
       - '*'
-  pull_request:
-    branches:
-      - master
 
 jobs:
   build-and-deploy:
@@ -24,7 +21,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install --upgrade \
             --extra-index-url https://meya:${{ secrets.auth_token }}@grid.meya.ai/registry/pypi \
-            "pygit2>=1.1.1" \
+            "pygit2==1.1.1" \
             "meya-sdk>=2.0.0" \
             "meya-cli>=2.0.0"
       - name: Authenticate using Meya auth token
