@@ -1,6 +1,6 @@
-![Meya build](https://github.com/meya-ai/grid-template-hello-world/workflows/Meya%20build/badge.svg)
+![Meya build](https://github.com/meya-customers/inside-weather-starter/workflows/Meya%20build/badge.svg)
 
-# hello-world
+# Inside Weather
 
 Basic template BFML and Python code that runs on Meya.
 
