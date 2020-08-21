@@ -1,0 +1,15 @@
+triggers:
+  - type: page_open
+    when: (@ not thread.open_page )
+  - keyword: start
+
+steps:
+  - thread_set:
+      open_page: true
+  - ask: Hey, welcome to Inside Weather! What can I help you with?
+    buttons:
+      - General questions
+      - Product questions
+      - Orders & order status
+      - Shipping & deliver
+      - Returns
