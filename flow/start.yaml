@@ -6,10 +6,12 @@ triggers:
 steps:
   - thread_set:
       open_page: true
-  - ask: Hey, welcome to Inside Weather! What can I help you with?
-    buttons:
+  - say: Hey, welcome! What can I help you with?
+    quick_replies:
       - General questions
       - Product questions
       - Orders & order status
-      - Shipping & delivery
+      - text: Shipping & delivery
+        action:
+          flow: flow.nlu.shipping
       - Returns

@@ -1,8 +1,14 @@
+triggers:
+  - keyword: shipping
+
 steps:
+  - if: (@ flow.get("dialogflow_response") )
+    then: next
+    else:
+      jump: full_list
   - flow_set:
       countries: (@ flow.dialogflow_response.queryResult.parameters.get("geo-country")
         )
-  - say: countries (@ flow.countries )
   - if: (@ flow.countries|length > 0 )
     then: next
     else:

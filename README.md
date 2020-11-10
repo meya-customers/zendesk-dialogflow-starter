@@ -1,13 +1,11 @@
-![Meya build](https://github.com/meya-customers/inside-weather-starter/workflows/Meya%20build/badge.svg)
-
-# Inside Weather
+# Starter
 
 Basic template BFML and Python code that runs on Meya.
 
 ## Setup
 
 ```shell script
-brew install python@3 libgit2
+brew install python@3.8 libgit2
 MEYA_AUTH_TOKEN=your_meya_auth_token
 MEYA_APP_ID=app-your_app_id
 # you can optionally setup a venv instead as well
