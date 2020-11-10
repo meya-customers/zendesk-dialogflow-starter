@@ -1,4 +1,4 @@
-# Starter
+# zendesk-dialogflow-starter
 
 Basic template BFML and Python code that runs on Meya.
 
