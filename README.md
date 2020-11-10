@@ -35,3 +35,8 @@ meya push --watch
 # for a full rebuild (useful for production deployments)
 meya push --force --build-image
 ```
+
+## Setup guides
+Zendesk Support: https://www.loom.com/share/0ec893e5642d4df592f7b10ca4e9abac
+
+Dialogflow: https://www.loom.com/share/2c29ee73755245bebf4deac6f3d34435
